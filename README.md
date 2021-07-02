@@ -1,4 +1,4 @@
-##Opera application
+## Opera application
 
 ---
 OperaApp is an application to manage tickets bought on the occasion of an opera session by a user. 
