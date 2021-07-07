@@ -1,6 +1,7 @@
 package opera.academy.spring.service.impl;
 
 import java.util.Set;
+import opera.academy.spring.model.Role;
 import opera.academy.spring.model.User;
 import opera.academy.spring.service.AuthenticationService;
 import opera.academy.spring.service.RoleService;
@@ -27,7 +28,7 @@ public class AuthenticationServiceImpl implements AuthenticationService {
         User user = new User();
         user.setEmail(email);
         user.setPassword(password);
-        user.setRoles(Set.of(roleService.getRoleByName("USER")));
+        user.setRoles(Set.of(roleService.getRoleByName(Role.RoleName.USER.name())));
         userService.add(user);
         shoppingCartService.registerNewShoppingCart(user);
         return user;
