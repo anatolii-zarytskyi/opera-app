@@ -11,10 +11,11 @@ administrating user' customer experience.
 
 ---
 <h4> Guest (unauthorized and non registered) can do the fllowing:</h4>
- - register
- - login
- - get all available performance sessions according to request
-view current stages in Database
+
+- register
+- login
+- get all available performance sessions according to request
+- view current stages in Database
 
 <h4>Authenticated user:</h4>
 
